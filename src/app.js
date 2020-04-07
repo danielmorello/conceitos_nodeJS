@@ -50,7 +50,7 @@ app.put("/repositories/:id", (request, response) => {
   const repository = { 
     id, 
     title, 
-    url, 
+    url,  
     techs, 
     numLike 
   };
